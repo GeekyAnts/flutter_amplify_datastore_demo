@@ -3,7 +3,7 @@
 
 <!-- PROJECT LOGO -->
 
-<br /><p align="center"><a href="https://github.com/github_username/repo_name"><img src="assets/demo.gif" alt="Logo"></a><h1 align="center">Whatsapp Clone using Amplify DataStore</h1></p>
+<br /><p align="center"><a href="https://github.com/GeekyAnts/flutter_amplify_datastore_demo"><img src="assets/demo.gif" alt="Logo"></a><h1 align="center">Whatsapp Clone using Amplify DataStore in Flutter</h1></p>
 
 ## About The Project
 
