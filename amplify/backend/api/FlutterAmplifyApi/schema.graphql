@@ -1,0 +1,20 @@
+type Chatdata @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  message: String
+  createdAt: AWSTimestamp
+  updatedAt: AWSTimestamp
+  chatId: String
+  senderId: String
+}
+
+type Users @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  username: String
+  email: AWSEmail
+  bio: String
+  profileImage: AWSURL
+  isVerified: Boolean
+  createdAt: AWSTimestamp
+  chats: [AWSJSON]
+}
+ 

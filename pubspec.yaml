@@ -1,0 +1,66 @@
+name: flutter_amplify_demo
+description: A Demo project to test Flutter web with AWS Amplify.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Dependencies
+  amplify_api: "<1.0.0"
+  amplify_flutter: "<1.0.0"
+  amplify_datastore: "<1.0.0"
+  amplify_auth_cognito: "<1.0.0"
+
+  cached_network_image:
+  pull_to_refresh:
+  image_picker:
+  flutter_svg:
+  line_icons:
+  animate_do:
+  equatable:
+  provider:
+  bubble:
+  get_it:
+  uuid:
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/bg_chat.jpg
+    - assets/images/splash.png
+    # - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins/Poppins-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/Poppins/Poppins-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Poppins/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins/Poppins-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Poppins/Poppins-Black.ttf
+          weight: 900
